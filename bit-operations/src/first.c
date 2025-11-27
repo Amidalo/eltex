@@ -15,7 +15,7 @@ int main(void)
 
     if (input > USHRT_MAX)
     {
-        printf("\nВы вышли из диапазона типа short (0-65535)!"
+        printf("\nВы вышли из диапазона типа unsigned short (0-65535)!"
                "\nВаше число %d будет преобразовано в %d из-за циклического переполнения!\n", input, input - USHRT_MAX - 1);
     }
 
