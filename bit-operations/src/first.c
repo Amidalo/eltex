@@ -1,20 +1,32 @@
 #include <stdio.h>
 #include <limits.h>
+#include <stdlib.h>
 
 int main(void)
 {
-    short number = 0;
     char binary[sizeof(short) * 8 + 1] = {0};
     char shift = sizeof(short) * 8 - 1;
+    
+    signed int input = 0;
+    unsigned short number = 0;
 
-    printf("Enter a positive SHORT number: ");
-    scanf("%hd", &number);
+    printf("Введите число (0 <= число <= 65535): ");
+    scanf("%d", &input);
 
-    if (number < 0 || number > 32767 || number % 2 != 0)
+    if (input > USHRT_MAX)
     {
-        printf("You can enter a WHOLE number in this range: 0 <= number <= 32767\n");
-        return 1;
+        printf("\nВы вышли из диапазона типа short (0-65535)!"
+               "\nВаше число %d будет преобразовано в %d из-за циклического переполнения!\n", input, input - USHRT_MAX - 1);
     }
+
+    if (input < 0)
+    {
+        printf("\nВы вышли из диапазона типа short (0-65535)!"
+               "\nВаше число %d будет преобразовано в %d из-за циклического переполнения!\n", input, input + USHRT_MAX + 1);
+    }
+    
+
+    number = (unsigned short)input;
 
     short i = 0;
     for (; i <= sizeof(short) * 8 - 1; i++)
@@ -24,7 +36,7 @@ int main(void)
     }
     binary[i] = '\0';
 
-    printf("%s\n", binary);
+    printf("\nДвоичное представление: %s\n", binary);
 
     return 0;
 }
