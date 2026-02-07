@@ -11,14 +11,12 @@
             "id": "7096ea2221d5fa78",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "PART 1 - C LANGUAGE/LECTURE - STRUCTURES.md",
-                "mode": "source",
-                "source": false
+                "file": "_screens/Pasted image 20260207200615.png"
               },
-              "icon": "lucide-file",
-              "title": "LECTURE - STRUCTURES"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260207200615"
             }
           }
         ]
@@ -183,10 +181,14 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "7096ea2221d5fa78",
+  "active": "51fd7a3b26dd356c",
   "lastOpenFiles": [
-    "_screens/Pasted image 20260205235847.png",
     "PART 1 - C LANGUAGE/LECTURE - STRUCTURES.md",
+    "_screens/Pasted image 20260207200615.png",
+    "_screens/Pasted image 20260207200141.png",
+    "_screens/Pasted image 20260206154722.png",
+    "_screens/Pasted image 20260206150743.png",
+    "_screens/Pasted image 20260205235847.png",
     "_screens",
     "README.md",
     "PART 1 - C LANGUAGE",
