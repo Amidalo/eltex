@@ -11,12 +11,14 @@
             "id": "7096ea2221d5fa78",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_screens/Pasted image 20260207200615.png"
+                "file": "PART 1 - C LANGUAGE/LECTURE 2 - FUNCTIONS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260207200615"
+              "icon": "lucide-file",
+              "title": "LECTURE 2 - FUNCTIONS"
             }
           }
         ]
@@ -181,9 +183,11 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "51fd7a3b26dd356c",
+  "active": "7096ea2221d5fa78",
   "lastOpenFiles": [
-    "PART 1 - C LANGUAGE/LECTURE - STRUCTURES.md",
+    "PART 1 - C LANGUAGE/LECTURE 3 - GDB.md",
+    "PART 1 - C LANGUAGE/LECTURE 2 - FUNCTIONS.md",
+    "PART 1 - C LANGUAGE/LECTURE 1 - STRUCTURES.md",
     "_screens/Pasted image 20260207200615.png",
     "_screens/Pasted image 20260207200141.png",
     "_screens/Pasted image 20260206154722.png",
