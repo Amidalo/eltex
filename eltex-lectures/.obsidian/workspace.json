@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3e7963b85222c97e",
+        "id": "1f2d2f524657b363",
         "type": "tabs",
         "children": [
           {
-            "id": "7096ea2221d5fa78",
+            "id": "44212860359e38bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,7 +183,7 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "7096ea2221d5fa78",
+  "active": "44212860359e38bb",
   "lastOpenFiles": [
     "PART 1 - C LANGUAGE/LECTURE 3 - GDB.md",
     "PART 1 - C LANGUAGE/LECTURE 2 - FUNCTIONS.md",
@@ -192,9 +192,10 @@
     "_screens/Pasted image 20260207200141.png",
     "_screens/Pasted image 20260206154722.png",
     "_screens/Pasted image 20260206150743.png",
+    "PART 1 - C LANGUAGE/LECTURE - STRUCTURES.md",
+    "README.md",
     "_screens/Pasted image 20260205235847.png",
     "_screens",
-    "README.md",
     "PART 1 - C LANGUAGE",
     "Без названия/Без названия",
     "Лекция по структурам/Без названия.md",
