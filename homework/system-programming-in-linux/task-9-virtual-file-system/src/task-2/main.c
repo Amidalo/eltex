@@ -34,7 +34,7 @@ int main(void)
     
     initscr();
     start_color();
-    init_pair(1, COLOR_YELLOW, COLOR_BLUE);
+    init_pair(1, COLOR_BLACK, COLOR_RED);
     
     signal(SIGWINCH, sig_winch);
     keypad(stdscr, TRUE);
